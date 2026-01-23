@@ -27,3 +27,4 @@ Other Writing:
 Projects:
 
 - [Nutrition Tracker](https://nickberk.fitness)
+- [Privacy Policy Analyzer](https://privacypolicyanalyzer.com)
