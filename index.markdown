@@ -23,3 +23,7 @@ Other Writing:
 
 - [Life Lessons](https://docs.google.com/document/d/1iiHMZg1SPOOid6QBR47V0tYd9vYBV-ynC2jjdu-btRc/edit?tab=t.0#heading=h.jshpyrs9mmzn)
 - [Thoughts on Privacy](https://thoughtsonprivacy.substack.com/)
+
+Projects:
+
+- [Nutrition Tracker](https://nickberk.fitness)
