@@ -28,4 +28,4 @@ Projects:
 
 - [Nutrition Tracker](https://nickberk.fitness)
 - [Privacy Policy Analyzer](https://privacypolicyanalyzer.com)
-- [Cookie Deep Dive] (https://cookies.nick-berk.com)
+- [Cookie Deep Dive](https://cookies.nick-berk.com)
