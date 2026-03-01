@@ -1,0 +1,44 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+// Reading list color scheme — warm stone/gray palette
+
+$brand-color:      #78716c;
+$grey-color:       #78716c;
+$grey-color-light: #e7e5e4;
+$grey-color-dark:  #3a3532;
+$background-color: #fff;
+$text-color:       #111;
+
+@import "minima";
+
+// Serif headings matching the reading list
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, serif;
+  font-weight: normal;
+}
+
+.site-title,
+.site-title:visited {
+  color: #111;
+  font-family: Georgia, serif;
+  font-weight: normal;
+}
+
+a {
+  color: inherit;
+}
+
+a:visited {
+  color: inherit;
+}
+
+li a {
+  text-decoration: underline;
+  text-decoration-color: #d6d3d1;
+}
+
+li a:hover {
+  text-decoration-color: #111;
+}

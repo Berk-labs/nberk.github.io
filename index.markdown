@@ -17,15 +17,18 @@ Resource Lists (content I recommend):
 
 Newsletters:
 - [Nick's Links](https://nickslinks.substack.com/)
-- [Spicy Takes - A (Lighthearted) Food Newsletter](http://spicytakes.substack.com)
-
-Other Writing:
-
-- [Life Lessons](https://docs.google.com/document/d/1iiHMZg1SPOOid6QBR47V0tYd9vYBV-ynC2jjdu-btRc/edit?tab=t.0#heading=h.jshpyrs9mmzn)
 - [Thoughts on Privacy](https://thoughtsonprivacy.substack.com/)
+- [Spicy Takes - A (Lighthearted) Food Newsletter](http://spicytakes.substack.com) (Inactive)
 
 Projects:
 
 - [Nutrition Tracker](https://nickberk.fitness)
 - [Privacy Policy Analyzer](https://privacypolicyanalyzer.com)
 - [Cookie Deep Dive](https://cookies.nick-berk.com)
+- [Socratic Personal Tutor](https://socratic-learning.fly.dev/)
+
+Other Writing:
+
+- [Life Lessons](https://docs.google.com/document/d/1iiHMZg1SPOOid6QBR47V0tYd9vYBV-ynC2jjdu-btRc/edit?tab=t.0#heading=h.jshpyrs9mmzn)
+- [I Asked Two "Data Brokers" What They Know About Me; What I Learned, and How New Laws Made It Possible](https://medium.com/@nick.berk/i-asked-two-data-brokers-what-they-know-about-me-what-i-learned-and-how-new-laws-made-it-possible-30f6956be166)
+- [When is it safe to put client information into an AI tool?](https://www.linkedin.com/pulse/when-safe-put-client-information-ai-tool-nick-berk-9ahxc/?trackingId=87KrKaDCOCEi5iDv614Luw%3D%3D)
