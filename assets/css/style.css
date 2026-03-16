@@ -1,0 +1,269 @@
+/* --- Reset & Base --- */
+:root {
+  --brand: #78716c;
+  --gray-light: #e7e5e4;
+  --gray-dark: #3a3532;
+  --bg: #fff;
+  --text: #111;
+  --link-underline: #d6d3d1;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* --- Typography --- */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, serif;
+  font-weight: normal;
+}
+
+a {
+  color: inherit;
+}
+
+a:visited {
+  color: inherit;
+}
+
+/* --- Layout --- */
+.wrapper {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* --- Header --- */
+.site-header {
+  padding: 1.5rem 0;
+}
+
+.site-header .wrapper {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.site-title {
+  font-family: Georgia, serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--text);
+}
+
+.site-nav .page-link {
+  font-family: Georgia, serif;
+  color: var(--brand);
+  text-decoration: none;
+}
+
+.site-nav .page-link:hover {
+  color: var(--text);
+}
+
+/* --- Homepage --- */
+.intro {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.headshot {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.intro-text p {
+  margin-bottom: 0.5rem;
+}
+
+.socials a {
+  text-decoration: underline;
+  text-decoration-color: var(--link-underline);
+}
+
+.socials a:hover {
+  text-decoration-color: var(--text);
+}
+
+.sep {
+  color: var(--brand);
+  margin: 0 0.25rem;
+}
+
+.homepage-section {
+  margin-bottom: 2.5rem;
+}
+
+.homepage-section h2 {
+  margin-bottom: 0.75rem;
+  font-size: 1.3rem;
+}
+
+.homepage-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.homepage-section li {
+  margin-bottom: 0.6rem;
+}
+
+.homepage-section li a {
+  text-decoration: underline;
+  text-decoration-color: var(--link-underline);
+}
+
+.homepage-section li a:hover {
+  text-decoration-color: var(--text);
+}
+
+/* --- Subsection headings --- */
+.homepage-section h3 {
+  font-size: 1rem;
+  color: var(--gray-dark);
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+/* --- Project list --- */
+.project-list .project-desc {
+  display: block;
+  color: var(--brand);
+  font-size: 0.9rem;
+  margin-top: 0.1rem;
+}
+
+/* --- Blog list --- */
+.blog-tags {
+  margin-bottom: 2rem;
+}
+
+.tag-badge {
+  display: inline-block;
+  padding: 0.15em 0.6em;
+  margin: 0.2em 0.3em 0.2em 0;
+  font-size: 0.8em;
+  background: var(--gray-light);
+  color: var(--gray-dark);
+  border-radius: 1em;
+  text-decoration: none;
+}
+
+.tag-badge:hover {
+  background: var(--link-underline);
+}
+
+.post-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.post-list li {
+  margin-bottom: 0.75em;
+}
+
+.post-list .post-date {
+  display: inline-block;
+  color: var(--brand);
+  font-size: 0.85em;
+  margin-right: 0.5em;
+}
+
+.post-list .tag-badge {
+  padding: 0.1em 0.5em;
+  margin-left: 0.3em;
+  font-size: 0.75em;
+}
+
+/* --- Post --- */
+.post-header {
+  margin-bottom: 2rem;
+}
+
+.post-header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+}
+
+.post-meta {
+  color: var(--brand);
+  font-size: 0.9rem;
+}
+
+.post-content {
+  line-height: 1.75;
+}
+
+.post-content p {
+  margin-bottom: 1.25em;
+}
+
+.post-content h2,
+.post-content h3 {
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+.post-content a {
+  text-decoration: underline;
+  text-decoration-color: var(--link-underline);
+}
+
+.post-content a:hover {
+  text-decoration-color: var(--text);
+}
+
+.post-content blockquote {
+  border-left: 3px solid var(--gray-light);
+  padding-left: 1rem;
+  color: var(--brand);
+  margin: 1.5em 0;
+}
+
+.post-content code {
+  background: var(--gray-light);
+  padding: 0.15em 0.35em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+.post-content pre {
+  background: var(--gray-light);
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  margin: 1.5em 0;
+}
+
+.post-content pre code {
+  background: none;
+  padding: 0;
+}
+
+/* --- Responsive --- */
+@media (max-width: 600px) {
+  .wrapper {
+    padding: 0 1rem;
+  }
+
+  .post-header h1 {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,9 @@
+baseURL = "https://nick-berk.com/"
+languageCode = "en-us"
+title = "Nick Berk"
+
+[taxonomies]
+  tag = "tags"
+
+[outputs]
+  home = ["HTML", "RSS"]

@@ -1,0 +1,21 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+
+<div class="blog-tags">
+  {{ range .Site.Taxonomies.tags }}
+    <a href="{{ .Page.RelPermalink }}" class="tag-badge">{{ .Page.Title }}</a>
+  {{ end }}
+</div>
+
+<ul class="post-list">
+  {{ range .Pages.ByDate.Reverse }}
+    <li>
+      <span class="post-date">{{ .Date.Format "January 2, 2006" }}</span>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{ range .Params.tags }}
+        <span class="tag-badge">{{ . }}</span>
+      {{ end }}
+    </li>
+  {{ end }}
+</ul>
+{{ end }}
