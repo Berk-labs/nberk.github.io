@@ -2,6 +2,9 @@ baseURL = "https://nick-berk.com/"
 languageCode = "en-us"
 title = "Nick Berk"
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 [taxonomies]
   tag = "tags"
 
