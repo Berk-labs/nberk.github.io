@@ -20,8 +20,6 @@ And it's very rare to sit down to write knowing exactly what you want to say. In
 
 AI accelerates the process of finding the good stuff. When I'm in the mess, it lets me experiment. When I have something but I'm not sure it's right, it acts like a critical colleague: pushing back on the argument, suggesting alternatives. And when I know something is wrong but can't pinpoint why, it proposes fixes.
 
-AI helps me communicate more clearly - to give readers something *better*. And it's faster, which changes what's worth writing. Before, a post like this would sit in drafts forever. Now it actually ships.
-
 The key is to see AI as a tool you *collaborate with* to write - not as a tool that produces writing.
 
 *On scope for this piece: I'm focused on functional writing - explanatory and persuasive prose. Some of this will apply to more "creative" writing - but that has a different set of considerations*.
