@@ -221,6 +221,16 @@ a:visited {
   margin-bottom: 0.5em;
 }
 
+.post-content ul,
+.post-content ol {
+  padding-left: 1.5em;
+  margin-bottom: 1.25em;
+}
+
+.post-content li {
+  margin-bottom: 0.4em;
+}
+
 .post-content a {
   text-decoration: underline;
   text-decoration-color: var(--link-underline);

@@ -18,9 +18,9 @@ Good writing is good thinking. The words on the page are the *output* of clear t
 
 And it's very rare to sit down to write knowing exactly what you want to say. In Anne Lamott's famous essay, "[Shitty first drafts](https://wrd.as.uky.edu/sites/default/files/1-Shitty%20First%20Drafts.pdf)," she argues that all good writing starts as a mess. Nobody produces polished prose on the first try. The first draft is about getting the chaos out of your head so you can find the good stuff buried in it.
 
-AI accelerates the process of finding the good stuff. When I'm in the mess, it lets me experiment - try ten approaches, react to all of them, and discover what I actually think. When I have something but I'm not sure it's right, it acts like a critical colleague: pushing back on the argument, suggesting alternatives. And when I know something is wrong but can't pinpoint why, it proposes fixes.
+AI accelerates the process of finding the good stuff. When I'm in the mess, it lets me experiment. When I have something but I'm not sure it's right, it acts like a critical colleague: pushing back on the argument, suggesting alternatives. And when I know something is wrong but can't pinpoint why, it proposes fixes.
 
-AI helps me communicate more clearly - to give readers something *better*. And because it accelerates the process, ideas that would otherwise stay stuck in my head make it into the world (like this post!).
+AI helps me communicate more clearly - to give readers something *better*. And it's faster, which changes what's worth writing. Before, a post like this would sit in drafts forever. Now it actually ships.
 
 The key is to see AI as a tool you *collaborate with* to write - not as a tool that produces writing.
 
@@ -32,11 +32,11 @@ Here's what that looks like in practice.
 
 ### Start with a brain dump
 
-Before I open AI, I dump everything into a document. All of it - messy, contradictory, half-formed. I don't edit. I just get the ideas out of my head. This is the terrible first draft. **It's critical to have a foundation that's *mine* before AI enters the picture**. AI is great at organizing and refining ideas. It is not great at generating the underlying conviction.
+Before I open AI, I dump all my thoughts about the topic into a document. All of it - messy, contradictory, half-formed. I don't edit. I just get the ideas out of my head. This is the terrible first draft. **It's critical to have a foundation that's *mine* before AI enters the picture**. AI is great at organizing and refining ideas. It is not great at generating the underlying conviction.
 
 ### Hand the mess to AI
 
-Once I have the brain dump, I open Claude. I create a Project for the piece (Claude's system for organizing related chats and other resources), and upload the brain dump along with any reference material - source documents, research. Then I ask Claude to find the themes and patterns in what I've written.
+Once I have the brain dump, I open Claude. I create a Project (Claude's system for organizing related chats and other resources)for the piece, and upload the brain dump along with any reference material - source documents, research. Then I ask Claude to find the themes and patterns.
 
 For this post, for example, I started with a sprawl of notes about how I use AI to write, with half-formed points about experimentation, structure, discipline. I uploaded it and said: "*I'm writing a post about how to use LLMs in the writing process. Here is a brain dump of thoughts. I want to focus on the framing of the iteration between figuring out what you want to say and figuring out the best way to say it.*" (I usually include some guidance with the brain dump about what I *think* I want to focus on - but that often changes.)
 
@@ -64,7 +64,7 @@ This post went through several rounds. In the first, the structure wasn't workin
 
 So I opened a new chat and said: "It is really a mess. I do not like the structure. I have a lot of things that I want to say, and I think they're getting jumbled. Help me disentangle." Claude diagnosed the problem: I was threading three things through the piece at once: the philosophy, the process, and a bunch of tips. They were bleeding into each other.
 
-Then Claude asked clarifying questions. What's the central argument? Who's the audience? What should the reader walk away with? I discovered I wanted the piece to be primarily practical. With that framing, we experimented with a few ideas - and, from that, a new structure emerged: lay the philosophical foundation first, then walk through the practical process. That's the structure you're reading now.
+Then Claude asked clarifying questions. *What's the central argument? Who's the audience? What should the reader walk away with?* I discovered I wanted the piece to be primarily practical. With that framing, we experimented with a few ideas - and, from that, a new structure emerged: lay the philosophical foundation first, then walk through the practical process. That's the structure you're reading now.
 
 None of that was in my original notes. AI didn't figure it out for me. It gave me material to analyze, and my reactions told me what I actually thought.
 
@@ -121,7 +121,7 @@ For example, in this piece, Claude initially assumed the post was about what peo
 
 ### Fixing specific problems
 
-- *This paragraph doesn't make sense. Here's what I'm actually trying to say messy version. Clean that up.*
+- *This paragraph doesn't make sense. Here's what I'm actually trying to say [messy version]. Clean that up.*
 - *There are repetitive elements. Go through the piece, identify the points, and reduce duplication.*
 - *This section feels off, but I can't pinpoint why.*
 
