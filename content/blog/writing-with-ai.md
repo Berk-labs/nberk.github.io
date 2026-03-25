@@ -4,7 +4,7 @@ date: 2026-03-22
 tags: ["writing", "AI", "creativity"]
 ---
 
-My dad taught me to love good writing. His favorite quote is "I'm sorry I wrote such a long letter; I didn't have time to write a short one." I can still picture the red ink all over my grade school papers. He edited my writing ruthlessly, for as long as I can remember. I understood from an early age that writing is not just about the words on the page - it's about all the thinking that comes before. It's about respecting the reader and their time.
+My dad taught me to love good writing. His favorite quote is "I'm sorry I wrote such a long letter; I didn't have time to write a short one." He edited my writing ruthlessly, for as long as I can remember. I can still picture the red ink all over my grade school papers. I understood from an early age that writing is not just about the words on the page - it's about all the thinking that comes before. It's about respecting the reader and their time.
 
 <p style="text-align:center">* * *</p>
 
