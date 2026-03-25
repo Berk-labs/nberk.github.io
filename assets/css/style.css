@@ -93,18 +93,26 @@ a:visited {
   margin-bottom: 0.5rem;
 }
 
+.socials {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
 .socials a {
-  text-decoration: underline;
-  text-decoration-color: var(--link-underline);
+  color: var(--brand);
+  text-decoration: none;
+  display: inline-flex;
+  transition: color 0.2s ease;
 }
 
 .socials a:hover {
-  text-decoration-color: var(--text);
+  color: var(--text);
 }
 
-.sep {
-  color: var(--brand);
-  margin: 0 0.4rem;
+.social-icon {
+  width: 20px;
+  height: 20px;
 }
 
 .homepage-section {
