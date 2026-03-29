@@ -1,5 +1,5 @@
 ---
-title: "How to Actually Learn with (or without) AI"
+title: "How to Actually Learn With (or Without) AI"
 date: 2026-03-29
 tags: ["learning", "AI", "education"]
 ---
