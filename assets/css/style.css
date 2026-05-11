@@ -263,7 +263,14 @@ a:visited {
 .post-content ol {
   padding-left: 1.5em;
   margin-bottom: 1.25em;
-  list-style-position: inside;
+}
+
+.post-content li > p {
+  margin-bottom: 0.5em;
+}
+
+.post-content li > p:last-child {
+  margin-bottom: 0;
 }
 
 .post-content li {
@@ -312,6 +319,50 @@ a:visited {
 .post-content pre code {
   background: none;
   padding: 0;
+}
+
+/* --- Tables --- */
+.post-content .table-wrap {
+  overflow-x: auto;
+  margin: 1.5em 0;
+  -webkit-overflow-scrolling: touch;
+  /* Scroll-shadow affordance: shadows appear on edges only when overflowing.
+     The two "cover" gradients are anchored to scrolling content (background-attachment: local)
+     and hide the shadow when scrolled to that edge; the two "shadow" radials stay fixed. */
+  background:
+    linear-gradient(to right, var(--bg) 30%, rgba(255, 255, 255, 0)) left center,
+    linear-gradient(to right, rgba(255, 255, 255, 0), var(--bg) 70%) right center,
+    radial-gradient(farthest-side at 0 50%, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0)) left center,
+    radial-gradient(farthest-side at 100% 50%, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0)) right center;
+  background-repeat: no-repeat;
+  background-color: var(--bg);
+  background-size: 40px 100%, 40px 100%, 14px 100%, 14px 100%;
+  background-attachment: local, local, scroll, scroll;
+}
+
+.post-content table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.88em;
+  line-height: 1.5;
+}
+
+.post-content th,
+.post-content td {
+  padding: 0.5em 0.75em;
+  border-bottom: 1px solid var(--gray-light);
+  vertical-align: top;
+}
+
+.post-content th {
+  background: var(--gray-light);
+  font-weight: 600;
+  text-align: left;
+  border-bottom: 2px solid var(--link-underline);
+}
+
+.post-content tbody tr:last-child td {
+  border-bottom: none;
 }
 
 /* --- Lessons page --- */
